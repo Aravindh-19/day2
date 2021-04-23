@@ -27,6 +27,8 @@ namespace ConsoleApp3
 
         {
             class1 class1 = new class1();
+            
+            
             class1.swap(2,3,6);
             Console.ReadLine();
         }

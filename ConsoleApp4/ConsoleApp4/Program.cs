@@ -11,9 +11,9 @@ namespace ConsoleApp4
         void Swap(ref int a,ref int b)
         {
 
-            
-            
 
+
+            Console.WriteLine("Swap");
             Console.WriteLine(+a);
             Console.WriteLine(+b);
             
@@ -27,7 +27,11 @@ namespace ConsoleApp4
             class1 class1 = new class1();
             int a = 5;
              int   b = 6;
-            class1.Swap  (ref a , ref b);
+            
+            Console.WriteLine("Main");
+            Console.WriteLine(+a);
+            Console.WriteLine(+b);
+            class1.Swap(ref a, ref b);
             Console.ReadLine();
         }
     }
